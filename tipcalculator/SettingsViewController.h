@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+static NSString * const TIPKEY = @"default_tip";
 @interface SettingsViewController : UIViewController
 
 @end

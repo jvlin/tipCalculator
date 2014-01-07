@@ -70,7 +70,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     NSLog(@"view will appear");
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int defaultTip = [defaults integerForKey:@"default_tip"];
+    int defaultTip = [defaults integerForKey:TIPKEY];
     self.tipControl.selectedSegmentIndex = defaultTip;
     [self updateValues];
 }
